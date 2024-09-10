@@ -32,3 +32,11 @@ done
 echo "+"
 ```
 ![image](https://github.com/tel1ce/alexy_pract1/blob/main/image.png)
+***
+Задание №4
+```
+grep -oE '\b[a-zA-Z_][a-zA-Z0-9_]*\b' ConsoleApplication2.cpp | grep -vE '\b(int|void|return|if|else|for|while|include|stdio)\b' | sort | uniq
+```
+![image](https://github.com/user-attachments/assets/3f59ae2f-a4e4-4c06-a974-49aab2dbdb58)
+***
+
